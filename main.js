@@ -14,28 +14,24 @@ const characters = [
     last_name: "Potter",
     house: "Gryffindor",
     image: "images/img1.png",
-    actor: "Daniel Radcliffe",
   },
   {
     first_name: "Hermione",
     last_name: "Granger",
     house: "Gryffindor",
     image: "images/img2.png",
-    actor: "Emma Watson",
   },
   {
     first_name: "Ron",
     last_name: "Weasley",
     house: "Gryffindor",
     image: "images/img3.png",
-    actor: "Rupert Grint",
   },
   {
     first_name: "Draco",
     last_name: "Malfoy",
     house: "Slytherin",
     image: "images/img4.png",
-    actor: "Tom Felton",
   },
 ];
 const charactersHTML = characters
@@ -46,7 +42,6 @@ const charactersHTML = characters
         <img src="${character.image}" alt="${character.first_name}">
         <h2>${character.first_name} ${character.last_name}</h2>
         <p>House: <strong>${character.house}</strong></p>
-        <p>Actor: <strong>${character.actor}</strong></p>
     </div>
 `
   )
